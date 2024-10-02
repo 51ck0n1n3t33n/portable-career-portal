@@ -17,17 +17,9 @@ export class SearchService {
         params.fields =  [
             "id",
             "title",
-            "publishedCategory(id,name)",
-            "address(city,state,zip)",
             "employmentType",
             "dateLastPublished",
-            "publicDescription",
-            "isOpen",
-            "isPublic",
-            "isDeleted",
-            "publishedZip",
-            "salary",
-            "salaryUnit"
+            "publicDescription"
           ];
         params.count = count;
         params.sort = '-dateLastModified';
